@@ -1,0 +1,966 @@
+.para1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/1.jpg);
+  background-size: cover;
+}
+.para1 > .para2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  padding: 30px;
+}
+.para1 > .para2 > figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 100%;
+}
+.para1 > .para2 > figure > a {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para1 > .para2 > figure > a > img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 70px;
+}
+.para1 > .para2 > .para3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+  margin-right: -150px;
+}
+.para1 > .para2 > .para3 > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 40px;
+  position: relative;
+}
+.para1 > .para2 > .para3 > li > a {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+}
+.para1 > .para2 > .para3 > li > a:hover {
+  color: #78bca1;
+}
+.para1 > .para2 > .para3 > li:hover .para4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.para1 > .para2 > .para3 > li > .para4 {
+  position: absolute;
+  background-color: rgb(24, 23, 23);
+  width: 150px;
+  left: 0;
+  top: 39px;
+  display: none;
+}
+.para1 > .para2 > .para3 > li > .para4 > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+}
+.para1 > .para2 > .para3 > li > .para4 > li > a {
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.para1 > .para2 > .para3 > li > .para4 > li:hover {
+  background-color: #78bca1;
+  transition: 0.4s;
+}
+.para1 > .para2 > .para5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 100px;
+}
+.para1 > .para2 > .para5 > li {
+  width: 30px;
+  height: 30px;
+  margin: 0 15px;
+}
+.para1 > .para2 > .para5 > li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.para1 > .para2 > .para5 > li a > i {
+  color: white;
+  font-size: 20px;
+}
+.para1 > .para2 > .para5 > li a > i:hover {
+  color: #78bca1;
+}
+.para1 > .para6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 350px;
+  text-align: center;
+}
+.para1 > .para6 > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 20%;
+  color: white;
+  font-size: 60px;
+}
+.para1 > .para6 > ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  height: 100px;
+  margin-top: -80px;
+}
+.para1 > .para6 > ul > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100%;
+  font-size: 30px;
+  color: white;
+}
+.para1 > .para6 > ul > span {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+.para1 > .para6 > .para7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 250px;
+  height: 50px;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+.para1 > .para6 > .para7:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(34, 32, 32);
+  transition: 1s;
+}
+
+.para8 {
+  width: 100%;
+  height: 180vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  top: 0;
+}
+.para8 > div {
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 200px;
+  margin-top: 50px;
+}
+.para8 > div > h3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 20px;
+  color: rgb(155, 151, 151);
+}
+.para8 > div > div {
+  width: 4%;
+  height: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para8 > div > p {
+  width: 100%;
+  height: 100px;
+  color: rgba(48, 43, 43, 0.879);
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.para8 > nav {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  margin-top: -100px;
+}
+.para8 > nav > figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 500px;
+  margin: 0 20px;
+  position: relative;
+}
+.para8 > nav > figure:nth-of-type(1) img {
+  left: 0;
+  bottom: 0;
+}
+.para8 > nav > figure:nth-of-type(3) img {
+  right: 0;
+  bottom: 0;
+}
+.para8 > nav > figure > img {
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+  position: absolute;
+}
+.para8 > nav > figure > img:hover {
+  width: 360px;
+  height: 510px;
+}
+.para8 > p {
+  width: 60%;
+  height: 100px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  text-align: center;
+  margin-top: -100px;
+  color: rgb(128, 126, 126);
+}
+
+.para9 {
+  display: flex;
+  width: 100%;
+  height: 650px;
+}
+.para9 > figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.para9 > figure:hover img {
+  width: 110%;
+  height: 110%;
+  bottom: -5%;
+  right: -5%;
+}
+.para9 > figure:hover figcaption {
+  background-color: rgba(255, 255, 255, 0.109);
+}
+.para9 > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+.para9 > figure > figcaption {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  transition: 1s;
+}
+.para9 > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  align-content: space-evenly;
+  padding: 50px;
+  background-color: #f7f7f7;
+}
+.para9 > div > h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  text-transform: uppercase;
+  color: rgba(128, 128, 128, 0.652);
+}
+.para9 > div > div {
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 0.5px;
+  border: 1px solid rgba(128, 128, 128, 0.526);
+}
+.para9 > div > h4 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.para9 > div > p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  height: 40%;
+  padding: 0 10px;
+  color: rgb(153, 145, 145);
+}
+.para9 > div > button {
+  display: flex;
+  width: 140px;
+  height: 40px;
+  background-color: rgba(77, 169, 132, 0.7333333333);
+  transition: 0.4s;
+}
+.para9 > div > button:hover {
+  background-color: #1b4b38;
+}
+.para9 > div > button > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+}
+
+.para10 {
+  width: 100%;
+  height: 650px;
+  display: flex;
+}
+.para10 > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  align-content: space-evenly;
+  padding: 50px;
+  background-color: #f7f7f7;
+}
+.para10 > div > h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  text-transform: uppercase;
+  color: rgba(128, 128, 128, 0.652);
+}
+.para10 > div > div {
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 0.5px;
+  border: 1px solid rgba(128, 128, 128, 0.526);
+}
+.para10 > div > h4 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.para10 > div > p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  height: 40%;
+  padding: 0 10px;
+  color: rgb(153, 145, 145);
+}
+.para10 > div > button {
+  display: flex;
+  width: 140px;
+  height: 40px;
+  background-color: rgba(44, 157, 112, 0.7333333333);
+  transition: 0.4s;
+}
+.para10 > div > button:hover {
+  background-color: #308563;
+}
+.para10 > div > button > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+}
+.para10 > figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.para10 > figure:hover img {
+  width: 110%;
+  height: 110%;
+  bottom: -5%;
+  right: -5%;
+}
+.para10 > figure:hover figcaption {
+  background-color: rgba(255, 255, 255, 0.109);
+}
+.para10 > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+.para10 > figure > figcaption {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  transition: 0.4s;
+}
+
+.para11 {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: rgba(44, 157, 112, 0.7333333333);
+}
+.para11:hover {
+  background-color: #308563;
+}
+.para11 > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.para12 {
+  width: 100%;
+  height: 140vh;
+}
+.para12 > div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 350px;
+  flex-wrap: wrap;
+}
+.para12 > div > h3 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(128, 128, 128, 0.846);
+}
+.para12 > div > div {
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 1px;
+}
+.para12 > div > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  color: rgb(163, 148, 148);
+  padding: 20px;
+}
+.para12 > .para13 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 400px;
+}
+.para12 > .para13 > .para14 {
+  width: 230px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.para12 > .para13 > .para14 > figure {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 230px;
+  height: 318px;
+  position: relative;
+}
+.para12 > .para13 > .para14 > figure:hover figcaption {
+  width: 100%;
+  left: 0;
+}
+.para12 > .para13 > .para14 > figure > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+}
+.para12 > .para13 > .para14 > figure > figcaption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  width: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.892);
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+}
+.para12 > .para13 > .para14 > figure > figcaption > a {
+  position: absolute;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 100%;
+  text-align: center;
+}
+.para12 > .para13 > .para14 > figure > figcaption > a > span {
+  position: absolute;
+  width: 50%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.para12 > .para13 > .para14 > figure > figcaption > a > span:hover {
+  color: rgb(166, 159, 159);
+}
+.para12 > .para13 > .para14 > .para15 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 79px;
+}
+.para12 > .para13 > .para14 > .para15 > a {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(61, 13, 13, 0.8);
+  transition: 0.4s;
+}
+.para12 > .para13 > .para14 > .para15 > a:hover {
+  color: rgba(44, 157, 112, 0.7333333333);
+}
+.para12 > .para13 > .para14 > .para15 > span {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  color: rgba(44, 157, 112, 0.7333333333);
+  margin-top: -20px;
+}
+
+.para16 {
+  display: flex;
+  width: 100%;
+  height: 550px;
+}
+.para16 > figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.para16 > figure:hover img {
+  width: 110%;
+  height: 110%;
+  left: -5%;
+  bottom: -5%;
+}
+.para16 > figure > img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-right: -30px;
+  bottom: 0;
+  left: 0;
+  transition: 1s;
+}
+.para16 > figure > figcaption {
+  width: auto;
+  height: 60%;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.897);
+  font-size: 40px;
+  padding: 0 50px;
+  align-content: space-between;
+}
+.para16 > figure > figcaption > span {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  font-size: 15px;
+  border-bottom: 1px solid rgb(192, 188, 188);
+}
+.para16 > figure > a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.para17 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 130vh;
+}
+.para17 > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 65%;
+}
+.para17 > div > nav {
+  display: flex;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 100%;
+  padding: 100px 0;
+}
+.para17 > div > nav > h4 {
+  width: 100%;
+  height: 30px;
+  color: rgb(174, 172, 172);
+}
+.para17 > div > nav > div {
+  width: 30px;
+  height: 1px;
+  border: 1px solid rgb(174, 172, 172);
+}
+.para17 > div > nav > h5 {
+  width: 100%;
+  height: 80px;
+  font-size: 35px;
+  color: rgb(96, 90, 90);
+}
+.para17 > div > nav > p {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  height: 80px;
+  font-size: 17px;
+  color: rgb(129, 129, 129);
+}
+.para17 > div > nav > a {
+  display: flex;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 40px;
+  color: rgba(0, 0, 0, 0.778);
+  border-bottom: 1px solid rgb(189, 189, 189);
+  transition: 0.4s;
+}
+.para17 > div > nav > a:hover {
+  color: rgba(44, 157, 112, 0.7333333333);
+}
+.para17 > div > figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  width: 40%;
+  height: 100%;
+  position: relative;
+}
+.para17 > div > figure:hover img {
+  width: 100%;
+  height: 100%;
+}
+.para17 > div > figure > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 97%;
+  height: 97%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.4s;
+}
+.para17 > div > figure > figcaption {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+}
+.para17 > div > figure > a {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.para18 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/16.jpg);
+  background-size: cover;
+}
+.para18 > div {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 60%;
+  background-color: rgba(255, 255, 255, 0.128);
+}
+.para18 > div > h3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+.para18 > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 1px;
+  border: 1px solid white;
+}
+.para18 > div > h4 {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: white;
+}
+.para18 > div > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+.para18 > div > ul > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: rgb(128, 128, 128);
+}
+
+.para19 {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+}
+.para19 > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+  height: 100%;
+  background-color: #252525;
+  padding: 90px;
+}
+.para19 > div > span {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  color: #1b1d20;
+  text-align: center;
+}
+.para19 > div > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  background-color: #78bca1;
+  margin-top: 20px;
+  transition: 0.4s;
+}
+.para19 > div > a:hover {
+  background-color: #58a084;
+  color: white;
+}
+.para19 > nav {
+  width: 50%;
+  height: 100%;
+  background-color: #292929;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 100px;
+}
+.para19 > nav > h4 {
+  width: 300px;
+  height: 40px;
+  color: #78bc86;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.para19 > nav > div {
+  display: flex;
+  width: 50%;
+  height: 1px;
+  background-color: black;
+}
+.para19 > nav > span {
+  width: 300px;
+  height: 30px;
+  color: rgba(255, 255, 255, 0.905);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.para19 > nav > P {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: gray;
+}
+.para19 > nav > a {
+  width: 300px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #78bca1;
+  transition: 0.4s;
+}
+.para19 > nav > a:hover {
+  color: white;
+}
+
+.para20 {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  background-color: #202020;
+}
+.para20 > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.para20 > p > a {
+  color: white;
+}
+.para20 > p > a:hover {
+  color: darkred;
+}/*# sourceMappingURL=master.css.map */
